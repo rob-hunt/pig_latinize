@@ -1,5 +1,9 @@
-# Problem Statement
-We are bringing on a new group of customers and are in need of a Pig Latin translation engine for the product. You can find out more about Pig Latin at: https://en.wikipedia.org/wiki/Pig_LatinOur translator needs to be able to take in a string of one or more english words and produce a properly formatted pig latin translation.Here are some specific example translations to use in testing:
+## Problem Statement
+We are bringing on a new group of customers and are in need of a Pig Latin translation engine for the product.  
+You can find out more about Pig Latin at: https://en.wikipedia.org/wiki/Pig_Latin  
+Our translator needs to be able to take in a string of one or more english words and produce a properly formatted pig latin translation. 
+
+Here are some specific example translations to use in testing:
 
     hello => ellohay
     eat => eatway
@@ -15,5 +19,5 @@ We are bringing on a new group of customers and are in need of a Pig Latin trans
     Hello There => Ellohay Erethay
 
 
-# Usage 
-ruby pig_latinize [options] text
+## Usage 
+`ruby pig_latinize.rb <text to translate>`
